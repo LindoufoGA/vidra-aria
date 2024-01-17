@@ -1,0 +1,36 @@
+   /* Títulos Principais */
+.titulo-principal {
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #001F3F;
+}
+
+/* Subtítulos */
+.subtitulo {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1.8em;
+    font-weight: normal;
+    color: #2ECC71;
+}
+
+/* Texto Padrão */
+.texto-padrao {
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    color: #333; /* Cor de texto padrão */
+}
+
+/* Links */
+.link {
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #2ECC71;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #ffffff; /* Cor ao passar o mouse sobre o link */
+}

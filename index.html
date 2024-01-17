@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vidraçaria [Nome]</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="header-bg">
+    <div class="header container">
+      <img src="https://via.placeholder.com/50x50" alt="">
+      <nav id="nav">
+        <span id="btn-mobile">Menu
+        </span>
+        <ul class="menu">
+          <li><a class="link" href="#orcamento">Orçamentos</a></li>
+          <li><a class="link" href="#sobre">Sobre Nós</a></li>
+          <li><a class="link" href="#servicos">Serviços</a></li>
+          <li><a class="link" href="#qualidade">Qualidade</a></li>
+          <li><a class="link" href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <div class="slider">
+
+    <div class="slogan">
+      <span>Vidraçaria Glass</span>
+    </div>
+
+    <div class="slides">
+
+      <div class="slide">
+        <img src="img/banner1.png" alt="">
+      </div>
+      <div class="slide">
+        <img src="img/banner2.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="img/banner3.jpeg" alt="">
+      </div>
+      <div class="slide">
+        <img src="img/banner4.jpeg" alt="">
+      </div>
+      <div class="slide">
+        <img src="img/banner5.jpg" alt="">
+      </div>
+      <div class="slide first">
+        <img src="img/banner6.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="navigator-auto">
+      <div class="auto-btn1" onclick="changeSlide(0)"></div>
+      <div class="auto-btn2" onclick="changeSlide(1)"></div>
+      <div class="auto-btn3" onclick="changeSlide(2)"></div>
+      <div class="auto-btn4" onclick="changeSlide(3)"></div>
+      <div class="auto-btn5" onclick="changeSlide(4)"></div>
+      <div class="auto-btn6" onclick="changeSlide(5)"></div>
+    </div>
+  </div>
+
+
+  <!-- Seção Principal - Home -->
+  <section id="orcamento" class="introducao-bg">
+    <div class="introducao container">
+      <div class="descricao">
+        <h1 class="titulo-principal">Vidraçaria Glass</h1>
+        <p class="texto-padrao">A Vidraçaria São Paulo oferece serviços de vidraçaria de alta qualidade em [Sua Localização]. Vidraceiros especializados em porta de vidro, sacada de vidro, blindex, e muito mais. Encontre a melhor vidraçaria perto de você!</p>
+        <button class="btn-whats"><a href="">Chame no whatsapp</a></button>
+      </div>
+      <div>
+        <form action="/enviar.php" method="post" name="form" class="form">
+          <div>
+            <label for="nome">Nome</label>
+            <input id="nome" name="nome" type="text">
+          </div>
+          <div class="tel">
+            <label for="telefone">Telefone</label>
+            <input id="telefone" name="telefone" type="text">
+          </div>
+          <div class="email">
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="text">
+          </div>
+          <div class="mensagem">
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem"></textarea>
+          </div>
+
+          <button id="enviar" name="enviar" type="submit" class="btn btn-preto">Fazer orçamento</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção - Sobre Nós -->
+  <section id="sobre" class="sobre container">
+    <div class="img-sobre">
+      <img src="img/imagem-sobre.png" alt="">
+    </div>
+    <div>
+      <h2 class="subtitulo">Conheça a Vidraçaria Glass</h2>
+      <p class="texto-padrao">Descubra a narrativa que nos colocou na vanguarda dos serviços de vidraçaria em [Sua Localização]. Comprometidos em oferecer excelência, nossos vidraceiros especializados lideram projetos de porta blindex, sacada de vidro e mais. Nossa histólria é moldada pela fusão contínua de design contemporâneo e durabilidade, proporcionando uma jornada única na busca pela melhor vidraçaria. Conecte-se conosco e transforme sua visão em realidade.
+      </p>
+    </div>
+  </section>
+
+  <!-- Seção - Serviços -->
+  <section id="servicos" class="container">
+    <h2 class="subtitulo">Serviços</h2>
+    <div class="lista-servico">
+      <article class="item-servico">
+        <div class="descricao-servico">
+          <h3>Portas de vidro</h3>
+          <p class="texto-padrao">Descubra a sofisticação em nossas portas de vidro. Combinamos design contemporâneo e durabilidade para oferecer portas impressionantes. Encontre a porta ideal para modernizar e transicionar espaços.
+          </p>
+        </div>
+      </article>
+      <article class="item-servico">
+        <div class="descricao-servico">
+          <h3>Janelas de vidro</h3>
+          <p class="texto-padrao">Encontre janelas eficientes e esteticamente atraentes. Proporcione luz natural e vistas deslumbrantes. Descubra opções para criar ambientes arejados e inspiradores.
+          </p>
+        </div>
+      </article>
+      <article class="item-servico">
+        <div class="descricao-servico">
+          <h3>Box de vidro</h3>
+          <p class="texto-padrao">Explore a modernidade e praticidade em nossos boxes para banheiro. Harmonizamos elegância e funcionalidade, proporcionando um ambiente agradável. Descubra opções que unem design contemporâneo e durabilidade.
+          </p>
+        </div>
+      </article>
+      <article class="item-servico">
+        <div class="descricao-servico">
+          <h3>Sacadas de vidro</h3>
+          <p class="texto-padrao">Explore sacadas elegantes para proteção e vistas panorâmicas. Nossas soluções proporcionam transição suave entre interior e exterior. Descubra como nossas sacadas podem aprimorar seu espaço externo.
+          </p>
+        </div>
+      </article>
+      <article class="item-servico">
+        <div class="descricao-servico">
+          <h3>Coberturas de vidro</h3>
+          <p class="texto-padrao">Descubra a elegância nas coberturas de vidro para áreas externas. Harmonizamos funcionalidade e estilo, proporcionando proteção duradoura. Encontre a cobertura ideal para unir design moderno e resistência.
+          </p>
+        </div>
+      </article>
+      <article class="item-servico">
+        <div class="descricao-servico">
+          <h3>Espelhos de vidro</h3>
+          <p class="texto-padrao">Transforme ambientes com nossos espelhos de vidro. Adicione elegância e expansão visual a banheiros, salas e ambientes comerciais. Descubra variedade de estilos e tamanhos para criar espaços reflexivos e sofisticados.</p>
+        </div>
+      </article>
+      <article class="item-servico">
+        <div class="descricao-servico">
+          <h3>Vidros especiais</h3>
+          <p class="texto-padrao">Descubra a exclusividade em vidros especiais. Desde coloridos até designs serigrafados, explore opções distintivas. Encontre vidros especiais para expressar sua individualidade.
+          </p>
+        </div>
+      </article>
+      <article class="item-servico">
+        <div class="descricao-servico">
+          <h3>Divisórias de vidro</h3>
+          <p class="texto-padrao">Explore divisórias inovadoras para otimizar espaços internos. Integre design moderno e funcionalidade, permitindo luz natural. Descubra a divisória perfeita para unir estilo e privacidade.
+          </p>
+        </div>
+      </article>
+      <article class="item-servico">
+        <div class="descricao-servico">
+          <h3>Vidros para móveis</h3>
+          <p class="texto-padrao">Explore opções de vidro para móveis estilosos e funcionais. Projetados para aprimorar a beleza e durabilidade. Descubra como nossos vidros para móveis transformam ambientes.
+          </p>
+        </div>
+      </article>
+
+    </div>
+    <button class="btn-whats"><a href="">Chame no whatsapp</a></button>
+
+  </section>
+
+  <!-- Seção - Qualidade -->
+  <section class="container" id="qualidade">
+    <h2 class="subtitulo">Compromisso de Qualidade</h2>
+    <div class="qualidade">
+      <article class="item-qualidade">
+        <div class="img-qualidade">
+          <img src="img/qualidade-certificacao.jpg" alt="">
+        </div>
+        <div>
+          <p class="texto-padrao">Nossa busca incessante pela excelência é respaldada por certificados de qualidade reconhecidos. Cumprimos e excedemos os padrões da indústria, garantindo que cada projeto seja realizado com os mais altos níveis de desempenho e segurança. Ao escolher nossos serviços, você confia em uma vidraçaria que não apenas atende às expectativas, mas que possui certificações de qualidade para respaldar nosso compromisso com o profissionalismo e a satisfação do cliente.</p>
+        </div>
+      </article>
+      <article class="item-qualidade">
+        <div class="img-qualidade">
+          <img src="img/qualidade-preparacao.jpg" alt="">
+        </div>
+        <div>
+          <p class="texto-padrao">Na fundação de nossos serviços de vidraçaria, destacamo-nos pela atenção meticulosa à qualidade na preparação. Cada projeto inicia-se com uma análise minuciosa, garantindo que cada peça de vidro seja selecionada e preparada com precisão. A nossa dedicação à qualidade na preparação assegura uma base sólida para ambientes que mesclam design contemporâneo e durabilidade.</p>
+        </div>
+      </article>
+      <article class="item-qualidade">
+        <div class="img-qualidade">
+          <img src="img/qualidade-instalacao.jpg" alt="">
+        </div>
+        <div>
+          <p class="texto-padrao">A qualidade na instalação é a espinha dorsal de nossa abordagem em vidraçaria. Nossos vidraceiros especializados lideram cada projeto, implementando técnicas de instalação avançadas para garantir uma aplicação perfeita. Comprometemo-nos a oferecer mais do que um simples serviço; proporcionamos a concretização de projetos, seja uma porta blindex, uma sacada de vidro ou qualquer outra aplicação. A nossa qualidade na instalação reflete-se em ambientes visualmente impactantes e duráveis.
+          </p>
+        </div>
+      </article>
+    </div>
+  </section>
+  <!-- Seção - Contato -->
+  <section id="contato" class="contato-bg">
+    <div class="container">
+      <h2 class="subtitulo">Contato</h2>
+      <div class="contato">
+        <div>
+          <p class="texto-padrao">Fale conosco para obter orçamentos e informações adicionais sobre nossos serviços de vidraçaria. Estamos localizados em São Paulo e prontos para atender suas necessidades.</p>
+        </div>
+        <div class="endereco">
+          <p class="texto-padrao">Rua atibaia, 576 - São Paulo, SP</p>
+          <p class="texto-padrao">vidracaria@glass.com.br</p>
+          <p class="texto-padrao">(11) 94343 - 8743</p>
+        </div>
+        <div>
+          <ul class="redes-sociais">
+            <li>
+              <a href=""><img src="img/icons/icon-facebbok.png" alt=""></a>
+            </li>
+            <li>
+              <a href=""><img src="img/icons/icon-instagram.png" alt=""></a>
+            </li>
+            <li>
+              <a href=""><img src="img/icons/icon-whatsapp.png" alt=""></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <p class="texto-padrao">&copy; 2024 Vidraçaria Glass. Todos os direitos reservados.</p>
+  </footer>
+  <script src="script/script.js"></script>
+</body>
+
+</html>
