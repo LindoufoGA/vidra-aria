@@ -178,28 +178,28 @@ textarea {
   background-image: url("img/porta-vidro.webp");
 }
 .item-servico:nth-child(2) {
-  background-image: url("img/janela-vidro.jpg");
+  background-image: url("img/janela-vidro.webp");
 }
 .item-servico:nth-child(3) {
-  background-image: url("img/box-vidro.jpg");
+  background-image: url("img/box-vidro.webp");
 }
 .item-servico:nth-child(4) {
-  background-image: url("img/sacada-vidro.jpeg");
+  background-image: url("img/sacada-vidro.webp");
 }
 .item-servico:nth-child(5) {
-  background-image: url("img/cobertura-vidro.jpg");
+  background-image: url("img/cobertura-vidro.webp");
 }
 .item-servico:nth-child(6) {
-  background-image: url("img/espelho-vidro.jpg");
+  background-image: url("img/espelho-vidro.webp");
 }
 .item-servico:nth-child(7) {
-  background-image: url("img/vidro-especiais.jpg");
+  background-image: url("img/vidro-especiais.webp");
 }
 .item-servico:nth-child(8) {
-  background-image: url("img/divisoria-vidro.jpg");
+  background-image: url("img/divisoria-vidro.webp");
 }
 .item-servico:nth-child(9) {
-  background-image: url("img/vidro-para-moveis.png");
+  background-image: url("img/vidro-para-moveis.webp");
 }
 
 .item-servico:hover {
