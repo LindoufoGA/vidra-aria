@@ -1,8 +1,3 @@
-@import 'css/reset.css';
-@import 'css/tipografia.css';
-@import 'css/slider.css';
-@import 'css/responsivo.css';
-
 /* HEADER */
 .header {
   display: flex;
