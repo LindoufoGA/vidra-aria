@@ -13,7 +13,7 @@
   <meta property="og:url" content="website" />
   <meta property="og:image" content="" />
   <meta name="keywords" content="Vidraçaria, São Paulo, Vidraceiros, Porta de vidro, Sacada de vidro, Blindex, Vidraçaria Glass, Orçamentos, Sobre Nós, Serviços, Qualidade, Contato, Coberturas de vidro, Divisórias de vidro, Janelas de vidro, Box de vidro, Sacadas de vidro, Vidros especiais, Espelhos de vidro, Vidros para móveis, Certificados de qualidade, Preparação, Instalação, Rua Atibaia, Vidracaria@glass.com.br, (11) 94343 - 8743, Redes sociais, Facebook, Instagram, Whatsapp, Rodapé, © 2024 Vidraçaria Glass. Todos os direitos reservados">
-  <link rel="stylesheet" href="style-min.css">
+  <link rel="stylesheet" href="style.min.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/tipografia.css">
   <link rel="stylesheet" href="css/slider.css">
@@ -25,7 +25,10 @@
   <header class="header-bg">
     <div class="header container">
       <a href="/index.html">
-        <img src="img/logo.webp" alt="logo-vidraçaria" loading="lazy" width="auto" height="auto">
+        <picture>
+          <source media="(max-width: 700px)" srcset="img/img-celular/logo.webp" loading="lazy" width="auto" height="auto">
+          <img src="img/logo.webp" alt="logo-vidraçaria" loading="lazy" width="auto" height="auto">
+        </picture>
       </a>
       <nav id="nav">
         <span id="btn-mobile">Menu
@@ -52,7 +55,7 @@
 
       <div class="slide first">
         <picture>
-          <source media="(max-width: 700px)" srcset="img/img-celular/banner1.webp" width="auto" height="auto">
+          <source media="(max-width: 700px)" loading="lazy" srcset="img/img-celular/banner1.webp" width="auto" height="auto">
           <img src="img/banner1.webp" alt="portas de vidro" width="auto" height="auto">
         </picture>
       </div>
