@@ -38,8 +38,8 @@
   background-color: #2ecc70b9;
   border-radius: 10px;
   padding: 12px;
-  z-index: 9999;
-  top: 100px;
+  z-index: 999;
+  top: 200px;
   width: 100%;
 }
 
@@ -318,11 +318,15 @@ textarea {
     overflow-y: hidden;
     background-color: #001f3f91;
     padding-top: 5px;
+    z-index: 999999;
   }
   #nav.ativo .menu {
-    height: 38vh;
+    height: 40vh;
     visibility: visible;
     overflow-y: auto;
+  }
+  #nav.ativo .slogan {
+    opacity: 0;
   }
   .menu li a {
     padding: 1rem .5rem;
