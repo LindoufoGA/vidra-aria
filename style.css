@@ -39,7 +39,7 @@
   border-radius: 10px;
   padding: 12px;
   z-index: 9999;
-  top: 200px;
+  top: 100px;
   width: 100%;
 }
 
@@ -141,7 +141,6 @@ textarea {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-  /* align-items: center; */
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -232,14 +231,17 @@ textarea {
   }
   #qualidade .subtitulo {
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  #qualidade .subtitulo-h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
   }
   .item-qualidade {
     display: grid;
     grid-template-columns: 1fr 1fr;;
     gap: 20px;
     margin-bottom: 2rem;
-    align-items: center;
   }
   .img-qualidade {
     width: 100%;
@@ -297,7 +299,7 @@ textarea {
     display: flex;
   }
   #btn-mobile {
-    padding: 12px;
+    padding: 8px 12px;
     color: #2ecc71;
     border: 2px solid #2ecc71;
     border-radius: 8px;
