@@ -4,7 +4,7 @@
     "uglify-js": "^3.17.4"
   },
   "scripts": {
-    "minify-js": "uglifyjs script/script.js -o script/script.min.js",
+    "uglify": "uglifyjs script/script.js -o script/script.min.js",
     "minify-css": "cleancss -o style.min.css style.css"
   }
 
